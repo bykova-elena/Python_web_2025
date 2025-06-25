@@ -1,0 +1,58 @@
+# name = input('Как тебя зовут?')  # str
+#
+#
+# print('Привет' , name)
+# print('Приятно познакомиться')
+
+
+# donut = int(input('Стоимость пончика:'))
+# coffee = int(input('Стоимость кофе:'))
+#
+# print('С Вас', donut + coffee, 'руб.')
+
+
+# number = int(input('Введите число'))
+# print('Число', number , 'заканчивается на', number % 10)
+
+# number = int(input('Введите число'))
+# print('Число', number , 'в третей степени' , ** 3)
+# print('Квадратный корень от вашего числа', number ** (1/2))
+
+
+
+# print('mIU2')
+# name = 'Bob'  # str
+# surname = 'Bibsey'
+# age = 84  # int
+# print('Привет,', name, surname, ', тебе', age , 'лет.')
+# print('Привет,', name, surname, ', тебе', age , 'лет.')
+# print('Температура на улице,', temper,  'лет.')
+#
+# temper = 13.4  # float (floating point)
+# print('mIU4')
+
+
+prompt = """Витязь на распутье
+'Налево (L) пойдешь, вольну-волю обретешь...
+'Направо (R) пойдешь, коня потеряешь...
+'Прямо (F) пойдешь, сыт и весел будешь..."""
+print(prompt)
+choice = input('Куда идем (L, R или F): ')
+if choice == 'L' or choice == 'l':
+    print('Волная воля ')
+elif choice == 'R' or choice == 'r':
+    print('Конь сбежал')
+elif choice == 'F' or choice == 'f':
+    print('Сыт и весел')
+else:
+    print('Выбор не ясен')
+
+
+# a = 5
+# if a ==5:
+#     print('а равно 5')
+#     print('Условие выполнилось')
+# elif a==3:
+#     print('а равно 3')
+#     print('Условие выполнилось')
+

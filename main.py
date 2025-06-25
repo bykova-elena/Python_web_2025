@@ -43,7 +43,7 @@ if choice == 'L' or choice == 'l':
 elif choice == 'R' or choice == 'r':
     print('Конь сбежал')
 elif choice == 'F' or choice == 'f':
-    print('Сыт и весел')
+    print('Квемпи и перке')
 else:
     print('Выбор не ясен')
 

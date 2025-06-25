@@ -59,7 +59,7 @@
 
 
 
-hour = 22
+hour = 8
 
 # 0 - 23
 # Если время между 7 утра и 11 утра, то доброе утро
@@ -73,7 +73,7 @@ if hour > 23:
 if hour < 0:
     hour = 0
 
-if hour >= 7 and hour < 12:
+if 7 <= hour < 12:
     print('доброе утро')
 elif hour >= 12 and hour < 18:
     print('добрый день')

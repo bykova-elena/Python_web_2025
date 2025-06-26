@@ -1,0 +1,4 @@
+# break, continue
+counter = 0 # обнуляем счетчик
+# цикл из 5 итераций, на 3 пропускаем
+while counter < 5:
